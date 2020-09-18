@@ -1,0 +1,141 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: 1fr 100px 100px 100px;
+    grid-template-rows: 50px;
+    grid-template-areas: 
+    
+    ". gmail image connexion";
+}
+
+a{
+    text-decoration: none;
+    color: #323232;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gmail {
+    grid-area: gmail;
+    justify-self: center;
+    align-self: center;
+}
+
+#image {
+    grid-area: image;
+    justify-self: center;
+    align-self: center;
+}
+
+#connexion {
+    grid-area: connexion;
+    justify-self: center;
+    align-self: center;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 70px 70px 200px;
+    grid-template-areas: 
+    ". google"
+    ". search"
+    ". flexbox"
+    ". chance"
+}
+
+#google {
+    grid-area: google;
+    justify-self: center;
+    align-self: end;
+
+
+}
+
+#search {
+    grid-area: search;
+    height: 30px;
+    align-self: center;
+
+}
+
+#flexbox {
+    display: flexbox;
+    grid-area: flexbox;
+    justify-self: center;
+    align-self: center ;
+
+}
+
+#recherche {
+    grid-area: recherche;
+    
+}
+
+#chance {
+    grid-area: chance;
+    
+
+}
+
+#footer  {
+    
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 1fr 100px 100px 100px 100px;
+    grid-template-rows: 50px;
+    grid-template-areas: 
+    "pub entreprise apropos commentfonctionne . info confi condi para";
+
+}
+
+#pub{ 
+    grid-area:pub;
+    justify-self: center;
+    align-self: center;
+
+}
+
+#entreprise {
+    grid-area: entreprise;
+    justify-self: center;
+    align-self: center;
+}
+
+#apropos {
+    grid-area: apropos;
+    justify-self: center;
+    align-self: center;
+}
+
+#commentfonctionne {
+    grid-area: commentfonctionne;
+    justify-self: center;
+    align-self: center;
+}
+
+#info {
+    grid-area: info ;
+    justify-self: center;
+    align-self: center;
+}
+
+#confi {
+    grid-area: confi;
+    justify-self: center;
+    align-self: center;
+}
+
+#condi {
+    grid-area: condi;
+    justify-self: center;
+    align-self: center;
+}
+
+#para {
+    grid-area: para;
+    justify-self: center;
+    align-self: center;
+}
